@@ -9,3 +9,6 @@ I built a Kafka streaming pipeline to stream 13.8 million rows of data from my l
 
 ### AWS Services
 I used EC2 to host a server to create a virtual machine to run the code, S3 Bucket to catch and store the JSON time series data from my local machine, AWS GLUE and Athena to convert the json data into SQL tables for querying.
+
+### Data Source
+Data can be found here https://www.kaggle.com/datasets/finnhub/sp-500-futures-tick-data-sp 
